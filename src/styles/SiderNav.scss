@@ -1,0 +1,26 @@
+.sider-nav{
+  .sider-nav-link{
+    display: flex;
+    flex-direction: column;
+    padding: 7rem 5rem;
+    div{
+      display: flex;
+      justify-content: center;
+      width: 100px;
+      padding: 4px 10px;
+      border: 1px solid #1890ff;
+      margin-top: 10px;
+      a{
+        font-size: 1.05rem;
+        color: #1890ff;
+      }
+    }
+    div:hover{
+      background-color: #1890ff;
+      a{
+        font-size: 1.05rem;
+        color: #ffffff;
+      }
+    }
+  }
+}
